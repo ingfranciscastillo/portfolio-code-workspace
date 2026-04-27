@@ -3,7 +3,7 @@
 Interactive portfolio with IDE-style code editor.
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-1e3a8a?style=for-the-badge&logo=terminal)](https://termportfolio.netlify.app/)
-[![Built with React Router](https://img.shields.io/badge/Built%20with-React%20Router-1e3a8a?style=for-the-badge)](https://reactrouter.com)
+[![Built with TanStack Router](https://img.shields.io/badge/Built%20with-TanStack%20Router-1e3a8a?style=for-the-badge)](https://tanstack.com/router)
 [![Styled with Tailwind CSS](https://img.shields.io/badge/Styled%20with-Tailwind%20CSS-1e3a8a?style=for-the-badge)](https://tailwindcss.com)
 [![Powered by Vite](https://img.shields.io/badge/Powered%20by-Vite-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev)
 
