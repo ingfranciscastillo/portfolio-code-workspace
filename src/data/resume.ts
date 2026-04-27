@@ -12,7 +12,7 @@ export const resume = {
     label: "Semi Senior Full Stack Developer",
     image: "",
     email: "franciscastillodev@proton.me",
-    phone: "+1 809 496 1957",
+    phone: "+1 809 000 000",
     url: "https://franciscode.dev",
     summary: "Desarrollador web enfocado en construir productos interactivos con Next.js, IA y sistemas modernos. Transformo ideas complejas en experiencias claras, rápidas y bien diseñadas, cuidando tanto la lógica como la interfaz.",
     location: {
