@@ -1,14 +1,29 @@
+import { EditorPortfolio } from '#/components/portfolio/EditorPortfolio'
 import { createFileRoute } from '@tanstack/react-router'
 
-export const Route = createFileRoute('/')({ component: Home })
+export const Route = createFileRoute('/')({
+  head: () => ({
+    meta: [
+      { title: 'Francis Castillo — Developer Portfolio' },
+      {
+        name: 'description',
+        content:
+          'Portfolio interactivo tipo editor de código basado en JSON Resume Schema.',
+      },
+      {
+        property: 'og:title',
+        content: 'Francis Castillo — Developer Portfolio',
+      },
+      {
+        property: 'og:description',
+        content:
+          'Explora experiencia, proyectos, skills y contacto como archivos de un editor moderno.',
+      },
+    ],
+  }),
+  component: Index,
+})
 
-function Home() {
-  return (
-    <div className="p-8">
-      <h1 className="text-4xl font-bold">Welcome to TanStack Start</h1>
-      <p className="mt-4 text-lg">
-        Edit <code>src/routes/index.tsx</code> to get started.
-      </p>
-    </div>
-  )
+function Index() {
+  return <EditorPortfolio />
 }
