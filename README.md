@@ -1,6 +1,13 @@
 # Portfolio Code Workspace
 
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react&logoColor=white)](https://react.dev)
+[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind%20v4-38bdf8?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
+
 Interactive portfolio with IDE-style code editor.
+
+## Preview
 
 ![About section](/screenshots/about.png)
 ![Contact section](/screenshots/contact.png)
@@ -49,6 +56,12 @@ src/
 ├── styles.css      # Tailwind + custom themes
 └── router.tsx      # Router configuration
 ```
+
+## Support
+
+If you find this project useful, consider supporting my work!
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-violet.png)](https://www.buymeacoffee.com/ingfranciscastillo)
 
 ## License
 
