@@ -24,6 +24,13 @@ Interactive portfolio with IDE-style code editor.
 - [Radix UI](https://radix-ui.com) — Accessible UI components
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/) — Programming font
 
+## Features
+
+- **Portfolio Editor** — IDE-style code editor with syntax highlighting
+- **Accessible UI** — Built with Radix UI primitives
+- **Dark Mode** — Full theme support
+- **Responsive** — Mobile-first design
+
 ## Getting Started
 
 ```bash
@@ -36,13 +43,6 @@ Build for production:
 ```bash
 pnpm build
 ```
-
-## Features
-
-- **Portfolio Editor** — IDE-style code editor with syntax highlighting
-- **Accessible UI** — Built with Radix UI primitives
-- **Dark Mode** — Full theme support
-- **Responsive** — Mobile-first design
 
 ## Project Structure
 
@@ -66,7 +66,3 @@ If you find this project useful, consider supporting my work!
 ---
 
 MIT License — feel free to use this as a template for your own terminal portfolio.
-
----
-
-Built with passion for terminals and good APIs.
