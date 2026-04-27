@@ -2,7 +2,12 @@
 
 Interactive portfolio with IDE-style code editor.
 
-## Preview
+[![Live Demo](https://img.shields.io/badge/Live-Demo-1e3a8a?style=for-the-badge&logo=terminal)](https://termportfolio.netlify.app/)
+[![Built with React Router](https://img.shields.io/badge/Built%20with-React%20Router-1e3a8a?style=for-the-badge)](https://reactrouter.com)
+[![Styled with Tailwind CSS](https://img.shields.io/badge/Styled%20with-Tailwind%20CSS-1e3a8a?style=for-the-badge)](https://tailwindcss.com)
+[![Powered by Vite](https://img.shields.io/badge/Powered%20by-Vite-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev)
+
+## Screenshots
 
 ![About section](/screenshots/about.png)
 ![Contact section](/screenshots/contact.png)
@@ -12,11 +17,6 @@ Interactive portfolio with IDE-style code editor.
 ![Light theme](/screenshots/light-theme.png)
 
 ## Tech Stack
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-1e3a8a?style=for-the-badge&logo=terminal)](https://termportfolio.netlify.app/)
-[![Built with React Router](https://img.shields.io/badge/Built%20with-React%20Router-1e3a8a?style=for-the-badge)](https://reactrouter.com)
-[![Styled with Tailwind CSS](https://img.shields.io/badge/Styled%20with-Tailwind%20CSS-1e3a8a?style=for-the-badge)](https://tailwindcss.com)
-[![Powered by Vite](https://img.shields.io/badge/Powered%20by-Vite-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev)
 
 - [TanStack Start](https://tanstack.com/start) — Full-stack React framework
 - [React 19](https://react.dev) — UI library
