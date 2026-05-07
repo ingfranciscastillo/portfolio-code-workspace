@@ -1,6 +1,6 @@
 # Portfolio Code Workspace
 
-Interactive portfolio with IDE-style code editor.
+> Interactive portfolio with IDE-style code editor.
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-1e3a8a?style=for-the-badge&logo=terminal)](https://portfolio-code-workspace.vercel.app/)
 [![behance](https://img.shields.io/badge/behance-1769FF?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/ingfranciscastillo)
@@ -9,14 +9,7 @@ Interactive portfolio with IDE-style code editor.
 [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ingfranciscastillo)
 [![last_commit](https://img.shields.io/github/last-commit/ingfranciscastillo/ai-resume-analyzer?style=for-the-badge)](https://github.com/ingfranciscastillo/portfolio-code-workspace/commits/main)
 
-## Screenshots
-
-![About section](/screenshots/about.png)
-![Contact section](/screenshots/contact.png)
-![Experience section](/screenshots/experience.png)
-![Projects section](/screenshots/projects.png)
-![Skills section](/screenshots/skills.png)
-![Light theme](/screenshots/light-theme.png)
+![Preview](/screenshots/about.png)
 
 ## Tech Stack
 
