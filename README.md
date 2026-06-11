@@ -9,7 +9,21 @@
 [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ingfranciscastillo)
 [![last_commit](https://img.shields.io/github/last-commit/ingfranciscastillo/ai-resume-analyzer?style=for-the-badge)](https://github.com/ingfranciscastillo/portfolio-code-workspace/commits/main)
 
+<!-- README-I18N:START -->
+
+**English** | [Español](./README.es.md)
+
+<!-- README-I18N:END -->
+
 ![Preview](/screenshots/about.png)
+
+## What This Does
+
+A portfolio template that looks and feels like a code editor. Navigate through resume sections as if browsing files in an IDE — complete with syntax highlighting, tabs, a file explorer, and a command palette.
+
+## Demo
+
+[Live Demo](https://portfolio-code-workspace.vercel.app/)
 
 ## Tech Stack
 
@@ -22,9 +36,22 @@
 ## Features
 
 - **Portfolio Editor** — IDE-style code editor with syntax highlighting
+- **Command Palette** — Quick file access with Ctrl+P
+- **Theme Toggle** — Dark and light mode support
+- **Responsive** — Mobile-first design with sidebar drawer on small screens
 - **Accessible UI** — Built with Radix UI primitives
-- **Dark Mode** — Full theme support
-- **Responsive** — Mobile-first design
+
+## How It Works
+
+The editor reads from a `resume.ts` data file structured around [JSON Resume](https://jsonresume.org/) schema. Content is rendered as code-like syntax via `code-content.tsx`, which transforms each section into highlighted "files":
+
+- `about.ts` — Professional summary and public profiles
+- `experience.tsx` — Work history rendered as JSX-like timeline
+- `projects.json` — Featured projects in JSON format
+- `skills.ts` — Technologies grouped by domain
+- `contact.md` — Contact channels and links
+
+State (open tabs, active file, theme preference) persists to `localStorage`.
 
 ## Getting Started
 
@@ -44,12 +71,12 @@ pnpm build
 ```
 src/
 ├── components/
-│   ├── ui/          # Reusable UI components
-│   └── portfolio/  # Portfolio-specific components
-├── routes/         # File-based routing
-├── data/           # Data modules
-├── styles.css      # Tailwind + custom themes
-└── router.tsx      # Router configuration
+│   ├── ui/          # Reusable UI components (Button, Command, Dialog, HoverCard, Sheet)
+│   └── portfolio/  # EditorPortfolio, code-content
+├── routes/          # File-based routing (TanStack Start)
+├── data/            # resume.ts (JSON Resume data)
+├── styles.css       # Tailwind v4 + custom themes with oklch colors
+└── router.tsx       # Router configuration
 ```
 
 ## Support
